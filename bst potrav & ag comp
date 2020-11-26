@@ -1,3 +1,10 @@
+#include <iostream>
+using namespace std;
+
+//Given a set of numbers, it checks if they form a valid binary search tree by  creating
+//a bst with those numbers, traversing it, and checking if the order of traversal
+//is the same as the order of the numbers in the given set.
+
 class bst {
     public:
     bst *left = nullptr;
@@ -60,3 +67,7 @@ for(size_t j = 0; j < a[i].length(); j++){
                 }
                 if(change) j--;
             }
+
+int main(){
+
+}
