@@ -2,6 +2,8 @@
 #include <vector>
 using namespace std;
 
+//checks if any subset of a set of numbers add up to a target value.
+//it generates all subsets through a complicated nested for loop.
 
 vector<int> remove_if_greater(int targe, vector<int> se){
 	vector<int> result = {1};
